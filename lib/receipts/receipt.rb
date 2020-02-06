@@ -57,7 +57,7 @@ module Receipts
         end
 
         move_down 8
-        text "<color rgb='a6a6a6'>#{subheading % { id: id }}</color>", inline_format: true
+        text "#{subheading % { id: id }}", inline_format: true
 
         move_down 30
         text message, inline_format: true, size: 12.5, leading: 4
